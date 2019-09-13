@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -13,8 +12,8 @@ namespace Empowered.ServiceTemplate
 
         public MyService(ILogger<MyService> logger, IHostingEnvironment hostingEnvironment)
         {
-            Logger = logger;
-            HostingEnvironment = hostingEnvironment;
+            this.Logger = logger;
+            this.HostingEnvironment = hostingEnvironment;
         }
 
         public async Task StartAsync(CancellationToken cancellationToken)
