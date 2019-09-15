@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "astor",
+  "classifications": [ "Common", "Service" ],
+  "identity": "Empowered.NetCoreTemplates.Service",
+  "groupIdentity":"Empowered.NetCoreTemplates",
+  "name": "Service Application",
+  "shortName": "service",
+  "sourceName": "Empowered.NetCoreTemplates.Service",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

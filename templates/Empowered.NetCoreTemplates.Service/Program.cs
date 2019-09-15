@@ -1,10 +1,10 @@
-﻿using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
-namespace Empowered.ServiceTemplate
+namespace Empowered.NetCoreTemplates.Service
 {
     internal static class Program
     {
@@ -20,7 +20,7 @@ namespace Empowered.ServiceTemplate
                     var env = context.HostingEnvironment.EnvironmentName;
 
                     config.AddJsonFile("appsettings.json");
-                    config.AddJsonFile($"appsettings.{env}.json", optional: true, reloadOnChange: true);
+                    config.AddJsonFile($"appsettings.{env}.json", true);
                 })
                 .ConfigureServices((hostContext, services) =>
                 {

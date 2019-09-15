@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Empowered.ServiceTemplate
+namespace Empowered.NetCoreTemplates.Service
 {
     public class Startup
     {
@@ -14,6 +14,7 @@ namespace Empowered.ServiceTemplate
 
         public void ConfigureServices(IServiceCollection services)
         {
+
         }
     }
 }
