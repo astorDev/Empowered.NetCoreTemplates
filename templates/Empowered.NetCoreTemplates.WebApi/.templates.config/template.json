@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "astor",
+  "classifications": [ "Web", "WebAPI" ],
+  "identity": "Empowered.NetCoreTemplates.WebApi",
+  "groupIdentity":"Empowered.NetCoreTemplates.WebApi",
+  "name": "Empowered ASP.NET Core Web API",
+  "shortName": "api",
+  "sourceName": "Empowered.NetCoreTemplates.WebApi",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
