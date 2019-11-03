@@ -1,4 +1,4 @@
-namespace Empowered.NetCore3Templates.WebApi.Models
+namespace Empowered.NetCore3Templates.Protocol.Models
 {
     public class About
     {

@@ -1,4 +1,7 @@
-$HEADER$namespace $NAMESPACE$
+namespace Empowered.NetCore3Templates.Protocol
 {
-  public class $CLASS$ {$END$}
+    public class Uris
+    {
+        public const string About = "about";
+    }
 }
